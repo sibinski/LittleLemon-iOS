@@ -1,7 +1,10 @@
 //
-//  HeaderBar.swift
-//  LittleLemonApp
+//  Header.swift
+//  LittleLemon-iOS
 //
+//  Created by Eugene Sibinski on 01.05.2025.
+//
+
 
 import SwiftUI
 

@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct MenuItem: Identifiable, Decodable {
+    var id: Int
+    var title: String
+    var image: String
+    var price: String
+}

@@ -1,12 +1,13 @@
 //
 //  Hero.swift
-//  LittleLemonApp
+//  LittleLemon-iOS
+//
+//  Created by Eugene Sibinski on 01.05.2025.
 //
 
 import SwiftUI
 
 struct Hero: View {
-    
     var body: some View {
         VStack {
             HStack {

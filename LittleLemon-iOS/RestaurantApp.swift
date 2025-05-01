@@ -13,8 +13,9 @@ struct LittleLemon_iOSApp: App {
 
     var body: some Scene {
         WindowGroup {
-            Onboarding()
+            Onboarding(firstName: "", lastName: "", email: "")
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
+
